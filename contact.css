@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "General Sans";
     box-sizing: border-box;
-    background-color: black;
+    
     
     
 }
@@ -11,7 +11,7 @@
 html, body {
     width: 100%;
     height: 100%;
-    background-color: black;
+    
     color: white ;
     
     
@@ -19,7 +19,68 @@ html, body {
 
 body{
     margin: 0vw;
-    background-color: black;
+   
 
 }
 
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .contact-container {
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #444444;
+    color: #ffffff;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #ff4500;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animated {
+    animation: fadeIn 1s ease;
+  }
+    
